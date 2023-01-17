@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Generate images using OpenAI",
   "main": "index.js",
+   "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "start": "node index",
     "dev": "nodemon index"
