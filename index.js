@@ -14,4 +14,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/openai', require('./routes/openaiRoutes'));
 
+
 app.listen(port, () => console.log(`Server started on port ${port}`));
